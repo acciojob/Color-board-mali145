@@ -28,7 +28,7 @@ const container=document.querySelector(".container")
 				
              setTimeout(() => {
 		
-                  target.style.backgroundColor="rgb(53,52,52)"
+                  e.target.style.backgroundColor="rgb(53,52,52)"
                
          }, 1000);
 
