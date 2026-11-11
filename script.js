@@ -25,7 +25,7 @@ const container=document.querySelector(".container")
                // setTimeout(() => {
 				
                 e.target.style.backgroundColor="rgb(53,52,52)"
-				e.style.transition = "background-color 1s ease";
+				e.target.style.transition = "background-color 1s ease";
     
         // }, 1000);
 
