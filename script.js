@@ -8,7 +8,7 @@ const container=document.querySelector(".container")
 
             const div=document.createElement("div")
 
-            div.classList.add("box")
+            div.classList.add("square")
             div.addEventListener("mouseenter",(e)=>{
                 const red=Math.floor(Math.random()*256)
                 const green=Math.floor(Math.random()*256)
