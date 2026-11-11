@@ -21,6 +21,9 @@ const container=document.querySelector(".container")
 
             })
 
+
+
+			div.style.transition = "background-color 1s ease";
             div.addEventListener("mouseout",(e)=>{
 				
 				// e.target.style.transition = "background-color 1s ease";
@@ -29,7 +32,7 @@ const container=document.querySelector(".container")
              setTimeout(() => {
 		
                   e.target.style.backgroundColor="rgb(53,52,52)"
-               
+               e.target.style.boxShadow = "none";
          }, 1000);
 
 
