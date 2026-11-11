@@ -34,7 +34,7 @@
 		 background-color: rgb(53,52,52);
         border-radius: 20%;
         cursor: pointer;
-        transition: background 3s;
+        transition: background 0.3s;
         
 	}
 
