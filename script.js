@@ -22,15 +22,15 @@ const container=document.querySelector(".container")
             })
 
             div.addEventListener("mouseout",(e)=>{
-				e.target.style.backgroundColor="rgb(53,52,52)"
-               // setTimeout(() => {
-				e.target.style.transition = "background-color 1s ease";
+				
+				// e.target.style.transition = "background-color 1s ease";
     
 				
-                
+             setTimeout(() => {
 		
-    
-        // }, 1000);
+                  target.style.backgroundColor="rgb(53,52,52)"
+               
+         }, 1000);
 
 
             })
